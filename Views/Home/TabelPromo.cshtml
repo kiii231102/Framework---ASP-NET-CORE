@@ -1,0 +1,162 @@
+﻿@model Musclegym.Models.Member
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Login - MuscleGYM</title>
+    <link href="~/css/stylesadmin.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:#212529">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Promo</h3></div>
+                                <div class="card-body">
+                <form asp-action="TabelPromo" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Nama" class="control-label"></label>
+                        <input asp-for="Nama" class="form-control" />
+                        <span asp-validation-for="Nama" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NoHp" class="control-label"></label>
+                        <input asp-for="NoHp" class="form-control" />
+                        <span asp-validation-for="NoHp" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="JenisKelamin" class="control-label"></label>
+                        <select asp-for="JenisKelamin" class="form-control">
+                            <option value="Pria">Pria</option>
+                            <option value="Wanita">Wanita</option>
+                        </select>
+                        <span asp-validation-for="JenisKelamin" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="TanggalLahir" class="control-label"></label>
+                        <input asp-for="TanggalLahir" class="form-control" />
+                        <span asp-validation-for="TanggalLahir" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="TanggalBergabung" class="control-label"></label>
+                        <input asp-for="TanggalBergabung" class="form-control" />
+                        <span asp-validation-for="TanggalBergabung" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Paket" class="control-label"></label>
+                        <select asp-for="Paket" class="form-control">
+                            <option value="Paket6Bulan">Paket 6 Bulan</option>
+                            <option value="Paket12Bulan">Paket 12 Bulan</option>
+                        </select>
+                        <span asp-validation-for="Paket" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Cabang" class="control-label"></label>
+                        <select asp-for="Cabang" class="form-control">
+                            <option value="Panam">Panam</option>
+                            <option value="Rumbai">Rumbai</option>
+                            <option value="Rambutan">Rambutan</option>
+                            <option value="Hangtuah">Hangtuah</option>
+                            <option value="Dumai">Dumai</option>
+                            <option value="Marpoyan">Marpoyan</option>
+                        </select>
+                        <span asp-validation-for="Cabang" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="StatusMember" class="control-label"></label>
+                        <div>
+                            <input type="radio" asp-for="StatusMember" value="SudahMember" /> Sudah Member
+                            <input type="radio" asp-for="StatusMember" value="BelumMember" /> Belum Member
+                        </div>
+                        <span asp-validation-for="StatusMember" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-primary" data-toggle="modal" data-target="#success-modal" style="background-color: #F38321; border-color: #F38321;" />
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+   
+    <!-- Modal untuk menampilkan pesan berhasil -->
+    <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="success-modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="success-modal-label">Success!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span id="success-message-text"></span>
+                    <p>Silahkan lanjut ke <a href="https://wa.me/+6282131747741" target="_blank">WhatsApp</a> untuk konfirmasi.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="redirectToIndex()">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        // Cek apakah ada pesan berhasil di TempData
+        var successMessage = "@TempData["SuccessMessage"]";
+        if (successMessage) {
+            // Tampilkan pesan berhasil di modal
+            document.getElementById("success-message-text").innerText = successMessage;
+            $('#success-modal').modal('show');
+
+            // Tambahkan delay sebelum pindah halaman
+            setTimeout(function () {
+                redirectToIndex();
+            }, 10000); // Waktu delay dalam milidetik (3000 milidetik = 3 detik)
+
+            // Fungsi untuk memindahkan halaman
+            function redirectToIndex() {
+                window.location.href = "/Home/Index"; // Ganti dengan URL yang sesuai
+            }
+        }
+    </script>
+
+</body>
+</html>

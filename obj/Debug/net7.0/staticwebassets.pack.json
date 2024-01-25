@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Musclegym.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Musclegym.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\1month.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1month.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\3month.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\3month.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\6month.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\6month.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\about\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\about\\about1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about1.png"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\close-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\close-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\logomuscle.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logomuscle.png"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\logos\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\logos\\ibm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\ibm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\logos\\microsoft.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\microsoft.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\map-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\navbar-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\navbar-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\aerobic.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\aerobic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\gym.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\gym.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\muaythai.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\muaythai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\poundfit.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\poundfit.png"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\yoga.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\yoga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\portfolio\\zumba.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\zumba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\promo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\promo.png"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\assets\\logomuscle.ico",
+      "PackagePath": "staticwebassets\\assets\\logomuscle.ico"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\css\\stylesadmin.css",
+      "PackagePath": "staticwebassets\\css\\stylesadmin.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\js\\scriptsadmin.js",
+      "PackagePath": "staticwebassets\\js\\scriptsadmin.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MELVIANITA AMANDA\\Documents\\Musclegym(FIX)\\Musclegym(FIX)\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Musclegym.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Musclegym.props",
+      "PackagePath": "build\\Musclegym.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Musclegym.props",
+      "PackagePath": "buildMultiTargeting\\Musclegym.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Musclegym.props",
+      "PackagePath": "buildTransitive\\Musclegym.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

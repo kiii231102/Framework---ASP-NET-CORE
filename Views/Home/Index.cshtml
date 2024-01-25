@@ -1,0 +1,747 @@
+﻿@model Musclegym.Models.Promo
+
+@{
+    Layout = null;
+}   
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Muscle GYM</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="~/assets/logomuscle.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img class="logo" src="~/assets/img/logomuscle.png" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#facilities">facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promo">promo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#membership">Membership</a></li>
+                   @*  <li class="nav-item">
+                        <a class="nav-link" href="/Registrasi/Registrasi">Daftar</a>
+                    </li> *@
+
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-m text-uppercase" href="/home/Awal">Logout</a>
+
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    
+    <header class="masthead">
+        <section class="page-section" id="home">
+        <div class="container">
+            <div class="masthead-subheading">Welcome To Our </div>
+            <div class="masthead-heading text-uppercase">Muscle Gym</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#about">Tell Me More</a>
+        </div>
+    </section>
+    </header>
+
+
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">Muscle Gym</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="~/assets/img/about/about1.png" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Since</h4>
+                            <h4 class="subheading">2021</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Muscle gym is a place specifically designed to carry out physical exercise activities, with the aim of improving body fitness, heart health and muscle strength. This place is usually equipped with various fitness facilities and equipment that supports various types of exercise. Muscle Gym provides many types of fitness machines and equipment such as treadmills, stationary bikes, Smith machines, rowing machines, cable machines, squat racks, lat pulldown machines, leg press machines and many others.
+                            </p>
+                        </div>
+                    </div>
+                        <div class="timeline-panel1">
+                            <div class="timeline-heading1">
+                                <h4>Our</h4>
+                                <h4 class="subheading">Mission</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                We're dedicated to fostering a fitness community that supports and motivates every individual's journey. With cutting-edge resources and expert guidance, we aim to empower our members to reach their peak physical potential, one rep at a time.</br>
+                                Our mission is to provide an inclusive space where fitness meets fulfillment. Through personalized support, state-of-the-art amenities, and a vibrant community, we're committed to guiding you towards your fitness goals and celebrating every milestone along the way.
+                                </p>
+                                </div>
+                        </div>
+                    
+
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Come be
+                            <br />
+                            Part of
+                            <br />
+                            MuscleGym!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+       
+
+    <!-- Classes-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Our Classes</h2>
+                <h3 class="section-subheading text-muted">Class Description</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/gym.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">GYM</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/zumba.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">ZUMBA</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/aerobic.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">AEROBIC</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/yoga.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">YOGA</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/muaythai.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">MUAY THAI</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="~/assets/img/portfolio/poundfit.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">POUNDFIT</div>
+                            <div class="portfolio-caption-subheading text-muted">Class</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Facilities-->
+    <section class="page-section" id="facilities">
+    <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Facilities</h2>
+                <h3 class="section-subheading text-muted">Muscle GYM</h3>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-dumbbell fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Complete and Quality Tools</h4>
+                    <p class="text-muted">Gym equipment that is complete and whose quality is maintained with regular maintenance</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-person-booth fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Changing Room</h4>
+                    <p class="text-muted">Changing rooms are adequate and clean to provide comfort</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-crown fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Additional Facilities</h4>
+                    <p class="text-muted">Additional facilities such as towels and lockers for gym members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Member Price-->
+    <section class="page-section bg-light" id="price">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">GYM Membership</h2>
+                <h3 class="section-subheading text-muted">Price </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="~/assets/img/1month.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="~/assets/img/3month.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="~/assets/img/6month.jpg" alt="..." />
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Promo-->
+    <div class="py-5" id="promo">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Calling all Gym-mania!</h2>
+                <h3 class="section-subheading text-muted">This the Best Offer for you!</h3><br>
+                <a href="/home/TabelPromo">
+                <img class="img1" src="~/assets/img/promo.png" alt="..." /></a>
+            </div>
+            </div>
+        </div>
+    <!-- Membership-->
+    <section class="page-section" id="membership">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Membership</h2>
+                <h3 class="section-subheading text-muted">Let's be the part of Muscle GYM</h3>
+            </div>
+
+
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <form asp-action="Index" style="margin-right:-500px">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="Nama" class="control-label" style="color: white;"></label>
+                            <input asp-for="Nama" class="form-control" />
+                            <span asp-validation-for="Nama" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label" style="color: white;"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="NoHp" class="control-label" style="color: white;"></label>
+                            <input asp-for="NoHp" class="form-control" />
+                            <span asp-validation-for="NoHp" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="JenisKelamin" class="control-label" style="color: white;"></label>
+                            <select asp-for="JenisKelamin" class="form-control">
+                                <option value="Pria">Pria</option>
+                                <option value="Wanita">Wanita</option>
+                            </select>
+                            <span asp-validation-for="JenisKelamin" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TanggalLahir" class="control-label" style="color: white;"></label>
+                            <input asp-for="TanggalLahir" class="form-control" />
+                            <span asp-validation-for="TanggalLahir" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Durasi" class="control-label" style="color: white;"></label>
+                            <input asp-for="Durasi" class="form-control" />
+                            <span asp-validation-for="Durasi" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Class" class="control-label" style="color: white;"></label>
+                            <select asp-for="Class" class="form-control">
+                                <option value="gym">Gym</option>
+                                <option value="yoga">Yoga</option>
+                                <option value="poundfit">Poundfit</option>
+                                <option value="zumba">Zumba</option>
+                                <option value="aerobic">Aerobic</option>
+                                <option value="muaythai">Muay Thai</option>
+                            </select>
+                            <span asp-validation-for="Class" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Cabang" class="control-label" style="color: white;"></label>
+                            <select asp-for="Cabang" class="form-control">
+                                <option value="panam">Panam</option>
+                                <option value="marpoyan">Marpoyan</option>
+                                <option value="rumbai">Rumbai</option>
+                                <option value="dumai">Dumai</option>
+                                <option value="hangtuah">Hangtuah</option>
+                                <option value="rambutan">Rambutan</option>
+                            </select>
+                            <span asp-validation-for="Cabang" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="submit" value="Submit" class="btn btn-primary" data-toggle="modal" data-target="#success-modal" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal untuk menampilkan pesan berhasil -->
+        <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="success-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="success-modal-label">Success!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <span id="success-message-text"></span>
+                        <p>Silahkan lanjut ke <a href="https://wa.me/+6282131747741" target="_blank">WhatsApp</a> untuk konfirmasi.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="redirectToIndex()">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Periksa apakah ada pesan keberhasilan di TempData
+                var successMessage = "@TempData["SuccessMessage"]";
+                if (successMessage) {
+                    // Tampilkan pesan keberhasilan di modal
+                    document.getElementById("success-message-text").innerText = successMessage;
+                    $('#success-modal').modal({
+                        backdrop: 'static',  // Menetapkan backdrop modal agar tidak dapat diklik atau menutup modal
+                        keyboard: false  // Menonaktifkan fungsi keyboard untuk menutup modal
+                    });
+                    
+                    // Intersep pengiriman formulir
+                    $('form').submit(function (e) {
+                        e.preventDefault(); // Cegah formulir dikirim
+
+                        // Menggunakan AJAX untuk mengirim formulir secara asynchronous
+                        $.ajax({
+                            url: 'Home/index', // Ganti dengan URL formulir Anda
+                            type: 'POST',
+                            data: $('form').serialize(),
+                            success: function (response) {
+                                // Respons dari server, periksa apakah sukses atau tidak
+                                if (response.success) {
+                                    console.log("Formulir berhasil dikirim");
+                                    // Optional: Tambahkan logika atau manipulasi DOM tambahan jika diperlukan
+                                } else {
+                                    console.log("Formulir gagal dikirim");
+                                    // Optional: Tambahkan logika atau manipulasi DOM tambahan jika diperlukan
+                                }
+
+                                // Opsional, tutup modal setelah jeda (mis., 3 detik)
+                                setTimeout(function () {
+                                    $('#success-modal').modal('hide');
+                                    console.log("Modal hidden");
+                                }, 30000);
+                            },
+                            error: function (error) {
+                                console.error("Error:", error);
+                                // Tampilkan pesan atau manipulasi DOM jika terjadi kesalahan
+                            }
+                        });
+                    });
+                   
+
+                    // Fungsi untuk memindahkan halaman setelah tombol "OK" diklik
+                    $('#success-modal').on('hidden.bs.modal', function () {
+                        redirectToIndex();
+                        console.log("Redirecting to index");
+                    });
+
+                    // Fungsi untuk memindahkan halaman
+                    function redirectToIndex() {
+                        window.location.href = "/Home/Index"; // Ganti dengan URL yang sesuai
+                    }
+                }
+            });
+        </script>
+
+
+
+
+       
+    </section>
+ 
+
+    <!-- Footer-->
+    <footer class="footer1" id="contact">
+        <div class="containerfooter">
+            <div class="rowfooter">
+                <div class="footer-col">
+                    <img src="~/assets/img/logomuscle.png" alt="..." />  
+                </div>
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/E32QJQn7EuUKHmaV7">Jl. HR. Soebrantas, Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau 28293, Pekanbaru 28293</a></li>
+                        <li><a href="https://maps.app.goo.gl/X9BZHAnx1TZ7ekH59">Jalan Raya, Pasir Putih, Simpang Tiga, Bukit Raya, Pekanbaru City, Riau 28284</a></li>
+                        <li><a href="https://maps.app.goo.gl/Va7wMtmLAVo4QHLU6">Jl. Hangtuah, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28112</a></li>
+
+                    </ul>
+                </div>
+                
+               <div class="footer-col1">
+                    
+                    <ul>
+                        
+                        <li><a href="https://maps.app.goo.gl/Gw9roZLkk9ucHTf37">Ruko Royal Mansion, Jl. Rambutan Jl. Ptpn V, Kota Pekanbaru, Riau 28294</a></li>
+                        <li><a href="https://maps.app.goo.gl/4PUcEzStZVhvAQu78">Jl. Sultan Hasanuddin No.98, Ratu Sima, Kec. Dumai Bar., Kota Dumai, Riau 28826</a></li>
+                        <li><a href="https://maps.app.goo.gl/Vf71FK7KBa8DGgJz8">Jl. Patria Sari No.1b, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau 28265</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us on</h4>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/musclegympku/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/musclegym_pku/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="http://surl.li/ohdsw"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/+6282131747741"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-footer">
+        <div class="container">Copyright © Muscle Gym</div>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="~/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">GYM</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/gym.jpg" alt="..." />
+                                <p>A gym class involves various exercises led by instructors to improve fitness, strength, and flexibility. It includes cardio, strength training, and stretching exercises guided by trained professionals to help achieve fitness goals.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        Rp. 35000
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        Rp. 225000
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="~/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">ZUMBA</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/zumba.jpg" alt="..." />
+                                <p>Zumba class is a lively fitness session blending Latin-inspired dance moves with aerobic exercises. Led by an instructor, it's a fun-filled workout set to energetic music, promoting cardiovascular health, flexibility, and coordination in a party-like atmosphere.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        Rp. 25000
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        Rp. 175000
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="~/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">AEROBIC</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/aerobic.jpg" alt="..." />
+                                <p> An aerobic class involves rhythmic exercises set to music, focusing on cardio endurance, coordination, and flexibility. Led by an instructor, it incorporates movements like stepping, jumping, and dancing, creating a dynamic workout to improve overall fitness levels!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        Rp. 20000
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        Rp. 125000
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="~/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">YOGA</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/yoga.jpg" alt="..." />
+                                <p>Yoga class is a session focused on harmonizing the body and mind through a series of poses, breathing exercises, and meditation. Led by an instructor, it cultivates strength, flexibility, and relaxation, promoting a sense of balance and well-being.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        -
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        Rp. 175000
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">MUAY THAI</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/muaythai.jpg" alt="..." />
+                                <p>Muay Thai class involves high-intensity training in the art of Thai boxing. Led by a coach, it focuses on striking techniques using fists, elbows, knees, and shins. Participants practice punches, kicks, and defensive moves, aiming to improve strength, endurance, and self-defense skills in an intense, disciplined environment.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        Rp. 50000
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        -
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="~/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">POUNDFIT</h2>
+                                <p class="item-intro text-muted">Description</p>
+                                <img class="img-fluid d-block mx-auto" src="~/assets/img/portfolio/poundfit.png" alt="..." />
+                                <p>PoundFit class is a dynamic workout session that incorporates drumming movements with cardio and strength exercises. Led by an instructor, it uses lightly weighted drumsticks (Ripstix) to create a rhythmic, full-body workout.</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Daily:</strong>
+                                        -
+                                    </li>
+                                    <li>
+                                        <strong>Monthly:</strong>
+                                        -
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="~/js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+ 
+
+</body>
+</html>
+

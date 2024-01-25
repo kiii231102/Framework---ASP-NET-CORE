@@ -1,0 +1,101 @@
+﻿@model Musclegym.Models.Promo
+
+
+@{
+    Layout = "~/Views/Home/tables.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Membership</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Nama" class="control-label"></label>
+                <input asp-for="Nama" class="form-control" />
+                <span asp-validation-for="Nama" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NoHp" class="control-label"></label>
+                <input asp-for="NoHp" class="form-control" />
+                <span asp-validation-for="NoHp" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TanggalLahir" class="control-label"></label>
+                <input asp-for="TanggalLahir" class="form-control" />
+                <span asp-validation-for="TanggalLahir" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="JenisKelamin" class="control-label"></label>
+                <div>
+                    <label>
+                        <input type="radio" asp-for="JenisKelamin" value="Laki-Laki" /> Laki-Laki
+                    </label>
+                    <label>
+                        <input type="radio" asp-for="JenisKelamin" value="Perempuan" /> Perempuan
+                    </label>
+                </div>
+                <span asp-validation-for="JenisKelamin" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Durasi" class="control-label"></label>
+                <input asp-for="Durasi" class="form-control" />
+                <span asp-validation-for="Durasi" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Class" class="control-label"></label>
+                <select asp-for="Class" class="form-control">
+                    <option value="gym">Gym</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="poundfit">Poundfit</option>
+                    <option value="zumba">Zumba</option>
+                    <option value="aerobic">Aerobic</option>
+                    <option value="muaythai">Muay Thai</option>
+                </select>
+                <span asp-validation-for="Class" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cabang" class="control-label"></label>
+                <select asp-for="Cabang" class="form-control">
+                    <option value="panam">Panam</option>
+                    <option value="marpoyan">Marpoyan</option>
+                    <option value="rumbai">Rumbai</option>
+                    <option value="dumai">Dumai</option>
+                    <option value="hangtuah">Hangtuah</option>
+                    <option value="rambutan">Rambutan</option>
+                </select>
+                <span asp-validation-for="Cabang" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
